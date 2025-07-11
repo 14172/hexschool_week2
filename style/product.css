@@ -44,6 +44,11 @@
   text-align: center;
   color: var(--neutral-600);
 }
+.product-color img:hover {
+  border-color: var(--neutral-900);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); /* 可選，增加陰影效果 */
+  cursor: pointer;
+}
 /* 產品尺寸 */
 .btn-product-size {
   border: 1px solid var(--neutral-300);
@@ -80,5 +85,5 @@
   color: var(--neutral-600);
 }
 .section-lined {
-    border-bottom: 1px solid var(--neutral-300);
+  border-bottom: 1px solid var(--neutral-300);
 }
