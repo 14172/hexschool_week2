@@ -155,6 +155,9 @@ body {
 .navbar-wrapper a{
   color: var(--neutral-900);
 }
+.navbar-wrapper a:hover{
+  color: var(--primary-400);
+}
 /* 通用樣式*/
 .container {
   width: 856px;
