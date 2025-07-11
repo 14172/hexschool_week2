@@ -152,6 +152,9 @@ body {
   letter-spacing: 0.05em;
   color: var(--neutral-900);
 }
+.navbar-wrapper a{
+  color: var(--neutral-900);
+}
 /* 通用樣式*/
 .container {
   width: 856px;
